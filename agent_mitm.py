@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thursday Feb 6 9:47:21 2025
+## AI Agent based MITM Attack Simulation code Implementation reference ###
+@author: Akram Sheriff
+"""
+
 from langchain.agents import load_tools, initialize_agent
 from langchain.llms import OpenAI
 
