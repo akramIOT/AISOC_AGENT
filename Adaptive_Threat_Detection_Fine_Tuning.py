@@ -21,7 +21,7 @@ rl_prompt_template = PromptTemplate(
 )
 
 # Initialize the reinforcement learning agent
-llm = OpenAI(temperature=0.7)
+llm = OpenAI(temperature=0.07)
 rl_agent = ReActTextWorldAgent(llm=llm, tools=tools, prompt_template=rl_prompt_template)
 
 # Function to fine-tune the agent's behavior
