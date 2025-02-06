@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thursday Feb 6 11:23:39 2025
+## AI Agent based Attack Simulation Analysis ###
+@author: Akram Sheriff
+"""
+
 from langchain.agents import load_tools, initialize_agent
 from langchain.llms import OpenAI
 
