@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thursday Feb 6 10:11:39 2025
+## AI Agent based Security Threat Detection Analysis ###
+@author: Akram Sheriff
+"""
+
 from langchain.agents import initialize_agent, load_tools
 from langchain.agents import AgentType
 from langchain.llms import OpenAI
